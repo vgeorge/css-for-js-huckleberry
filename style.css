@@ -10,3 +10,71 @@ body {
 }
 
 /* Add styles here! */
+
+:root {
+  --primary-color: hsl(160deg, 100%, 30%);
+  --secondary-color-light: #ffb52e;
+  --secondary-color-dark: #c88c23;
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark: hsl(0deg, 0%, 10%);
+  --dark: hsl(0deg, 0%, 30%);
+  --medium: hsl(0deg, 0%, 40%);
+  --light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
+strong {
+  color: var(--primary-color);
+}
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  max-width: 350px;
+  margin-top: 80px;
+  margin-bottom: 56px;
+  padding-left: 16px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+main {
+  background-color: var(--light);
+  border-width: 8px 0 0 0;
+  border-color: var(--medium);
+  border-style: solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card {
+  background-color: var(--white);
+  margin-top: 0;
+  padding: 8px 16px 16px 16px;
+  border-width: 0 0 8px 0;
+  border-style: solid;
+  border-color: var(--medium);
+}
+
+.indented-heading {
+  background-color: var(--secondary-color-light);
+  border-width: 0 0 8px 0;
+  border-style: solid;
+  border-color: var(--secondary-color-dark);
+  width: fit-content;
+  padding: 12px 24px 12px 24px;
+  margin-top: 0;
+  margin-left: -24px;
+}
